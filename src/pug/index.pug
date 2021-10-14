@@ -1,0 +1,63 @@
+extends common/layout
+
+block content
+    main.main
+    .container 
+      .dreamshare
+        h3.dreamshare-test How Dreamshare works?
+          .dreamshare-photo
+            .dreamshare-1 
+              button.dreamshare-button STEP 1
+              h3.dreamshare-topic Sed leo enim, condimentum
+              p.dreamshare-text-small
+              p.dreamshare-text-small Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+            .dreamshare-2 
+              button.dreamshare-button STEP 2
+              h3.dreamshare-topic Morbi velit risus
+              p.dreamshare-text-small Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+            .dreamshare-3
+              button.dreamshare-button STEP 3
+              h3.dreamshare-topic Sed leo enim, condimentum
+              p.dreamshare-text-small Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+    .container 
+      h2.partner-topic-big Meet a partner for your best holiday
+      .partner 
+        .partner-left.wrap
+          .partner-1 
+            img(src='../images/partner1.png', alt='partner')
+            h4.partner-topic Bradley Hunter
+            p.partner-text Based in Chicago. I love playing tennis and loud music.
+          .partner-2 
+            img(src='../images/partner2.png', alt='partner')
+            h4.partner-topic Marie Bennett
+            p.partner-text Currently living in Colorado. Lover of art, languages and travelling.
+        .partner-right.wrap
+          .partner-3
+            img(src='../images/partner3.png', alt='partner')
+            h4.partner-topic Diana Wells
+            p.partner-text Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+          .partner-4
+            img(src='../images/partner4.png', alt='partner')
+            h4.partner-topic Christopher Pierce
+            p.partner-text Star Wars fanatic. I have a persistent enthusiasm to create new things.
+            .button See other partners
+    .container
+      .activity 
+        h3.activity-topic Discover holiday activity ideas
+        .activity-head.wrap-photo
+          img.small-photo(src='../images/activity-head1.png', alt='activity')
+          img.small-photo(src='../images/activity-head2.png', alt='activity')
+          img.small-photo(src='../images/activity-head3.png', alt='activity')
+        .activity-middle.wrap-photo
+          img.small-photo(src='../images/activity-center1.png', alt='activity')
+          img.big-photo(src='../images/activity-center2.png', alt='activity')
+        .activity-foot.wrap-photo
+          img.big-photo(src='../images/activity-foot1.png', alt='activity')
+          img.small-photo(src='../images/activity-foot2.png', alt='activity')
+    .container 
+      .create
+        h3.create-topic Create your holiday activity
+        p.create-text Hi! What are your holiday interests?
+        .create-enter
+          input(type='text', placeholder='Enter your interests')
+          .create-button Search partners
